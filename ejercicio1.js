@@ -1,5 +1,5 @@
 function suma(a,b){
-    return a + b
+    let resultado=a +b
+    console.log(resultado)
 }
-let resultado = suma(6,7)
-console. log(resultado)
+suma(7,8)
