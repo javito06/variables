@@ -6,7 +6,7 @@
 //     nombres.push(nombre)
 // }
 // console.log("antes de elminar el ultimo",nombres)
-// nombres.pop
+// nombres.pop()
 // console.log("despues de eleminar el ultimo",nombres)
 
 
@@ -21,3 +21,12 @@
 // let nuevafruta = prompt("ingresa la fruta")
 // frutas.unshift(nuevafruta)
 // alert(frutas)
+
+// EJERCICIO3
+const nombre = ["marcos","juan","mateo","javier","lucas"];
+function indice(){
+    let indices = prompt("porfavor ingrese un indice")}
+alert("ingresar indice")
+console.log("antes de utilizar el splice")
+nombre.splice(1,2)
+console.log("despues del splice")
