@@ -71,3 +71,35 @@
 //     }
 // }
 // console.log(arrayA)
+// ejercicio 8
+// const arrayA =[]
+// const numero = 0
+// while(numero > 0){
+//     if( numero =prompt("ingresar un numero")){
+//     console.log(numero)} 
+// }
+// 1. Crea un array vacío.
+// let numeros = [];
+
+// // 2. Usa un ciclo while que pida al usuario ingresar números.
+// while (true) {
+//     let input = prompt("Ingresa un número (negativo para terminar):");
+
+//     // Convierte la entrada a número
+//     let numero = Number(input);
+
+//     // 3. Termina el ciclo cuando el usuario ingrese un número negativo.
+//     if (numero < 0) {
+//         break;
+//     }
+
+//     // Usa unshift para agregar cada número al principio del array.
+//     numeros.unshift(numero);
+// }
+
+// // 4. Usa pop para eliminar el último número agregado.
+// numeros.pop();
+
+// // Muestra el array resultante con console.log.
+// console.log(numeros);
+
