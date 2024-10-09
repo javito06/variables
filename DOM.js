@@ -39,8 +39,9 @@ for(let i=0;i<tareas.length;i++){
     }
 }
 for(let i=0;i<tareascompletadas.length;i++){
-    const tareascompleta= tareascompletadas[i]
+    const tareacompleta = tareascompletadas[i]
     const div =document.createElement("div")
-    div.innerHTML = ``
+    div.innerHTML = `<p>${tareacompleta.nombre}</p>`
+    contenedor.append(div)
 }
 
